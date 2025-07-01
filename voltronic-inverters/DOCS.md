@@ -25,6 +25,7 @@ This add-on requires some configuration to function properly. Below are the conf
 | `mqtt_broker_host` | The MQTT broker host address.                | `core-mosquitto`|
 | `mqtt_username`    | The username for the MQTT broker.            | `mqtt_user`     |
 | `mqtt_password`    | The password for the MQTT broker.            | `mqtt_password` |
+| `device_name`      | The device name for MQTT broker.             | `device_name` |
 | `device_type`      | The type of device connection. Can be one of `serial`, `usb-serial`, or `usb`. | `usb`           |
 
 ### Example Configuration
@@ -32,6 +33,7 @@ This add-on requires some configuration to function properly. Below are the conf
 mqtt_broker_host: "core-mosquitto"
 mqtt_username: "mqtt_user"
 mqtt_password: "mqtt_password"
+device_name: "device_name"
 device_type: "usb"
 ```
 
