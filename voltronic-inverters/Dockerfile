@@ -18,7 +18,7 @@ WORKDIR /opt
 ARG GIT_COMMIT=a01e305846c697d985847405909e91ba81289a49
 
 # Clone the repository with Sparse Checkout and check out the specific commit
-RUN git clone --filter=blob:none --no-checkout https://github.com/catalinbordan/docker-voltronic-homeassistant.git repo && \
+RUN git clone --filter=blob:none --no-checkout  https://github.com/garethmo/docker-voltronic-homeassistant.git repo && \
     cd repo && \
     git fetch origin $GIT_COMMIT && \
     git checkout $GIT_COMMIT && \
