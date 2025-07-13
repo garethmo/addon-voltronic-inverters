@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /opt
 
 # Define the desired commit hash
-ARG GIT_COMMIT=a2de6a4b00cde1ccdab4b8bbd5c511471b02e299
+ARG GIT_COMMIT=45ed8e5bf03d6b1981b94ef6a1a07d8334c35bfd
 
 # Clone the repository with Sparse Checkout and check out the specific commit
 RUN git clone --filter=blob:none --no-checkout  https://github.com/garethmo/docker-voltronic-homeassistant.git repo && \
