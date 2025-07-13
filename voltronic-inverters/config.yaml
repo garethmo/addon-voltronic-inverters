@@ -1,6 +1,6 @@
 name: "Voltronic"
 description: "Monitor and control Voltronic based inverters from Home Assistant."
-version: "1.0.3"
+version: "1.0.4"
 slug: "voltronic"
 init: false
 udev: true
